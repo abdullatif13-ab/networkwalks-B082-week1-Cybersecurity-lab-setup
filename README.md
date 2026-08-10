@@ -45,5 +45,5 @@
 
 <p>
   <strong>Full documentation:</strong> All detailed steps, settings, commands, and screenshots are in
-  <code>docs/Phase1_Kali_Setup_Record.pdf</code>.
+  <code>Phase1_Kali_Setup_Record.pdf</code>.
 </p>
