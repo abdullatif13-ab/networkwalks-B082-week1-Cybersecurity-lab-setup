@@ -23,6 +23,12 @@ Isolated virtualization lab for penetration-testing and ethical-hacking practice
 
 **📄 Full documentation:** All detailed steps, settings, commands, and screenshots are in [`docs/Phase1_Kali_Setup_Record.pdf`](docs/Phase1_Kali_Setup_Record.pdf).
 
+## 📺 Video Walkthrough
+
+> **▶️ Watch Phase 1 Setup:** [View the complete video walkthrough on YouTube](https://youtu.be/a3cQ-Q7RzqU)
+> 
+> This video shows all 7 steps in real-time, including downloading software, creating the network, configuring the VM, and testing connectivity. Follow along as we build the lab from scratch.
+
 ---
 
 ## 💻 Lab Environment
