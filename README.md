@@ -140,6 +140,40 @@ Isolated virtualization lab for penetration-testing and ethical-hacking practice
 
 ---
 
+
+## 📚 What I Learned
+
+This lab helped me understand how to build an isolated cybersecurity environment using VirtualBox and a NAT Network. I learned how to configure a static IP address, gateway, and DNS settings in Kali Linux, verify network connectivity, check download integrity using SHA256, and create a clean VM snapshot for future testing.
+
+> 💡 **Key Takeaway:** The importance of documenting configuration values and verification results so the lab can be reproduced reliably.
+
+More specifically, I now understand:
+
+- **Virtualization basics** — How to allocate VM resources (RAM, CPU, disk) and why sizing matters
+- **Network isolation** — How NAT Networks keep machines isolated while still allowing controlled internet access
+- **Linux networking** — How to manually configure IP addresses, gateways, and DNS servers in Linux
+- **Connectivity verification** — Using tools like `ifconfig` and `ping` to test network configuration
+- **Security best practices** — Why verifying download hashes (SHA256) is essential before importing software
+- **Snapshot discipline** — Why taking clean snapshots before testing is critical for reproducibility and quick recovery
+
+This foundation prepares me for Phase 2, where I'll add target machines and practice real penetration testing in a safe, isolated environment.
+---
+
+
+## ⚠️ Problems Faced and Solutions
+
+No significant problems were encountered during the lab setup. The Kali Linux virtual machine was successfully configured, the network settings were applied correctly, and all verification commands produced the expected results.
+
+Because the setup was completed successfully without troubleshooting issues, there were no major problems requiring corrective actions.
+
+**Note:** If you encounter any of these common issues, here are quick fixes:
+
+- **No internet in Kali VM** — Run: `sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0`
+- **DNS not resolving** — Ensure DNS is set to `10.0.0.1` (the gateway), not `8.8.8.8`
+- **Slow VM performance** — Increase allocated RAM or CPU cores if available on your host
+- **Can't connect to Kali VM** — Verify the static IP is set correctly and the NatNetwork is attached to Adapter 1
+---
+
 ## 🚀 Next: Phase 2
 
 Add isolated victim machines (Windows 11/10/7, Android) on the same NAT network and practice reconnaissance and testing between hosts — entirely within the contained lab.
