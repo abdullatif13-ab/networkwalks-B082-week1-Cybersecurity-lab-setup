@@ -156,7 +156,6 @@ More specifically, I now understand:
 - **Security best practices** — Why verifying download hashes (SHA256) is essential before importing software
 - **Snapshot discipline** — Why taking clean snapshots before testing is critical for reproducibility and quick recovery
 
-This foundation prepares me for Phase 2, where I'll add target machines and practice real penetration testing in a safe, isolated environment.
 ---
 
 
